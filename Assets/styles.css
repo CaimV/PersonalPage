@@ -177,6 +177,7 @@ h2{
 }
 .top3content h2{
     padding-bottom: 5rem;
+    padding-top: 5rem;
 }
 .top3content p{
     margin-bottom: 3rem;
@@ -319,6 +320,7 @@ div .form-group button{
     .menucontent, .menucontent ul{
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
     .menucontent{
         height: 100vh;
