@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Open+Sans:ital,wght@0,600;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../PersonalPage/Assets/styles.css">
+</head>
+
+<body class="mainbg secondbg">
+    <input type="checkbox" role="button" aria-label="Close menu" class="close-menu" id="close-menu">
+    <label for="close-menu" title="close menu" class="close-menu-label"></label>
+    <aside class="menu">
+        <div class="maincontent menucontent">
+            <img id="logo" src="../PersonalPage/Assets/Caim.jpg" alt="logotipo">
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#AboutMe">About Me</a></li>
+                    <li><a href="#experience">experience</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <div class="spacing"></div>
+    <section id="intro" class="mainbg section ">
+        <div class="maincontent intro-content">
+            <div class="intro-text-content">
+                <img class="personal-photo" src="../PersonalPage/Assets/personalphoto.jpg"></img>
+                <h1>Future Developer</h1>
+            </div>
+            <div class="intro-img">
+                <img src="../PersonalPage/Assets/programing.svg"
+                    alt="garoto programando, com monitor e notebook, xicará de café, sentado numa mesa em frente a uma janela com cortina">
+            </div>
+        </div>
+    </section>
+    <section id="AboutMe" class="secondbg section">
+        <div class="maincontent top3content">
+            <h2>About me</h2>
+            <p>Meu nome é Caio Victor, tenho 22 anos, moro em Brotas no interior de São Paulo, e no momento estou
+                cursando Engenharia da Computação na Unicep, e sou técnico em eletrotécnica pela Etec, no momento
+                estou procurando em uma vaga para área da tecnologia de informação, para desenvolvimento de novos
+                conhecimentos.</p>
+            <p>Desde novo fui influenciado a procurar novos cursos e sempre a aprender mais, e isso me ensinou a nunca
+                ficar parado e sempre procurar algo novo, o meu principal hobbie é a musculação, pois um
+                corpo saudável ajuda em uma mente saudável, e tudo isso com disciplina.</p>
+            <p>A minha paixão pela tecnologia vem desde que eu era pequeno quando eu ganhei o meu primeiro
+                computador, desde lá tive a interação com esse mundo, sendo que tudo isso me fascina, como isso tudo
+                evolue super rápido, meu sonho? ser um mago da TI.</p>
+        </div>
+    </section>
+    <section id="experience" class="maincontent section">
+        <div>
+            <h1 id="experience-style">Experience</h1>
+            <div id="content-experience" class="intro-content maincontent style-experience">
+                <div>
+                    <img id="ex-job" src="../PersonalPage/Assets/ecoacao.jpg" alt="antigo ambiente de trabalho">
+                </div>
+                <div>
+                    <h3>Vendedor - EcoAção Turismo de Aventura</h3>
+                    <p>Por cerca de três anos, trabalhei na área de turismo que seria o principal forte da
+                        cidade de Brotas, atuando diretamente com o cliente, melhorando minhas habilidades
+                        linguísticas, de comunicação e de resolução de problemas.</p>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="secondbg grid-one section">
+        <div class="grid-one-content maincontent">
+            <h2 class="grid-main-heading">Projetos</h2>
+            <div class="grid">
+                <div class="gallery-image"><a href="https://github.com/CaimV/PersonalPage.git"><img
+                            src="../PersonalPage/Assets/landpage.jpg" alt=""></a>
+                    <h3>Project Land Page</h3>
+                    <p>O projeto base para esse site, com técnicas html/css</p>
+                </div>
+                <div class="gallery-image"><img src="http://source.unsplash.com/random/360x360?r=125" alt="">
+                    <h3></h3>
+                    <p></p>
+                </div>
+                <div class="gallery-image"><img src="http://source.unsplash.com/random/360x360?r=125" alt="">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="mainbg section ">
+        <div class="maincontent intro-content end-content">
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contact Me</legend>
+                    <div class="form-group">
+                        <label for="first-name">first-name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your name">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last-name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+                        </label>
+                    </div>
+                    <div class=" form-group">
+                        <label for="email">Email</label>
+                        <input type="text" name="name" id="name" placeholder="Your email">
+                        </label>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        input <textarea name="message  " id="message" cols="30" rows="10"
+                            placeholder="Your message"></textarea> </label>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Send message</button>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="intro-img end-img">
+                <img src="../PersonalPage/Assets/formulary.svg"
+                    alt="garoto programando, com monitor e notebook, xicará de café, sentado numa mesa em frente a uma janela com cortina">
+            </div>
+        </div>
+    </section>
+    <a href="#" class="back-to-top">↑</a>
+
+</body>
+
+</html>
